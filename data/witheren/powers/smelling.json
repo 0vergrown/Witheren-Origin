@@ -1,0 +1,39 @@
+{
+   "name":"Smelling",
+   "description":"You can use your smelling to roughly estimate nearby entities locations, even if they are quiet. [Primary]",
+   "type":"origins:active_self",
+   "entity_action":{
+      "type":"origins:and",
+      "actions":[
+         {
+            "type":"origins:play_sound",
+            "sound":"minecraft:entity.cat.hiss",
+            "pitch":1.5,
+            "volume":0.3
+         },
+         {
+            "type":"origins:delay",
+            "ticks":6,
+            "action":{
+               "type":"origins:play_sound",
+               "sound":"minecraft:entity.cat.hiss",
+               "pitch":1.5,
+               "volume":0.3
+            }
+         },
+         {
+            "type":"origins:delay",
+            "ticks":12,
+            "action":{
+               "type":"origins:execute_command",
+               "command":"execute as @e[distance=0.1..10,type=!item] at @s run particle minecraft:dust_color_transition 0 0 0 1 0 0 0 ~ ~1 ~ 0.7 0.5 0.7 0 50 normal @a[tag=witheren,distance=0.1..]"
+            }
+         }
+      ]
+   },
+   "cooldown":80,
+   "hud_render":{
+      "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+      "bar_index":12
+   }
+}

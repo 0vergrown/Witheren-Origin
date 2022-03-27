@@ -1,0 +1,10 @@
+{
+    "type":"origins:attribute",
+    "modifier":{
+       "attribute":"minecraft:generic.attack_damage",
+       "operation":"addition",
+       "value":10.0
+    },
+    "name":"Natural Strength",
+    "description":"You have a strong connection to your lineage, your Wither and Warden sides were creatures of great strength which is now passed on to you. You can deal 10 hearts of damage."
+}

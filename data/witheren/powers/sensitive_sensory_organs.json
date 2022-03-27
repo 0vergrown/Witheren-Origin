@@ -1,0 +1,32 @@
+{
+    "type":"origins:damage_over_time",
+    "interval":10,
+    "onset_delay":30,
+    "damage":2,
+    "damage_easy":1,
+    "damage_source":{
+       "name":"onFire",
+       "unblockable":true,
+       "bypasses_armor":true,
+       "fire":true
+    },
+    "condition":{
+       "type":"origins:and",
+       "conditions":[
+          {
+             "type":"origins:exposed_to_sky"
+          },
+          {
+             "type":"origins:daytime"
+          },
+          {
+             "type":"origins:command",
+             "command":"execute if entity @s[x_rotation=-90..35]",
+             "comparison":"==",
+             "compare_to":1
+          }
+       ]
+    },
+    "name":"Sensitive Sensory Organs",
+    "description":"Although you cannot see very well, your ultra-dilated pupils makes looking at the sun extremely painful."
+}

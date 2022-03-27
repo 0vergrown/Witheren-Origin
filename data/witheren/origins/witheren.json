@@ -1,0 +1,29 @@
+{
+	"powers":[
+	   "witheren:blindness",
+	   "witheren:listener",
+	   "witheren:smelling",
+	   "witheren:wither_chain",
+	   "witheren:withered_soul_energy",
+	   "witheren:wither_touch",
+	   "witheren:drop_down",
+	   "witheren:well_grounded",
+	   "witheren:rough_around_the_edges",
+	   "witheren:undead_resistance",
+	   "witheren:natural_strength",
+	   "witheren:aggression",
+	   "witheren:a_call_home",
+	   "witheren:large",
+	   "witheren:no_weapons",
+	   "witheren:sensitive_sensory_organs",
+	   "witheren:demonic_jealousy",
+	   "witheren:outcast",
+	   "witheren:hatred_of_life",
+	   "witheren:cursed_being"
+	],
+	"icon":"minecraft:obsidian",
+	"order":10,
+	"impact":3,
+	"name":"Witheren",
+	"description":"You see the world through sound. The powers of the Wither and the Warden courses through your veins, allowing to have strange and supernatural powers."
+}

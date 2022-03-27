@@ -1,0 +1,8 @@
+{
+    "name":"A Call Home",
+    "description":"Your home calls, the Deep Dark and the Nether. You spawn in Mineshaft deep underground.",
+    "type":"origins:modify_player_spawn",
+    "dimension":"minecraft:overworld",
+    "structure":"minecraft:mineshaft",
+    "spawn_strategy":"center"
+}

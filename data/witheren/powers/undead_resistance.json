@@ -1,0 +1,11 @@
+{
+  "type":"origins:effect_immunity",
+  "effects":[
+     "minecraft:poison",
+     "minecraft:wither",
+     "minecraft:hunger",
+     "minecraft:slowness"
+  ],
+  "name":"Undead Resistance",
+  "description":"Immune to Wither, Poison, Hunger, and Slowness effects."
+}
