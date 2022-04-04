@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/0vergrown/Witheren-Origin/main/pack.png?raw=true" alt="Witheren Origin cover"/>
+</p>
+
 # Witheren Origin - Origins (Fabric) For Minecraft 1.18
 This is an Origin based on an Original character I ended up creating about a year ago. It implements a blind echolocation and sniffing power created by Discord user @Devald#8757. Massive thank you to them for letting me use it, I don't think it would be as cool of an Origin without it. There's a whole back story behind this one but I'll upload all of the story and Origin once I get all the bug fixes and story finished to just release in one go. In the mean time, to whoever finds this. Feel free to use it while its still in development as I want to find bugs to fix them and have a stable version.
 
