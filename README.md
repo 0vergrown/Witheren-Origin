@@ -13,7 +13,7 @@ Witheren datapack is made for the fabric mod, [Origins](https://www.curseforge.c
 **Origin Detail:**
 
 Icon: Obsidian <br />
-Impact: 3 <br />
+Impact: 🔴🔴🔴 <br />
 Description: You see the world through sound. The powers of the Wither and the Warden courses through your veins, allowing to have strange and supernatural powers.
 
 *Positive 🟢:*
