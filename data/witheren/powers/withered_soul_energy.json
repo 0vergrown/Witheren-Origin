@@ -1,59 +1,59 @@
 {
-	"name":"Withered Soul Energy",
-	"description":"Wither Energy flows through you. Your Wither side giving the power to control the souls of those you've killed, allowing you to create powerful attacks. [Secondary]",
-	"type":"origins:multiple",
-	"toggle":{
-	   "type":"origins:toggle",
-	   "active_by_default":false,
-	   "key":{
-		  "key":"key.origins.secondary_active",
-		  "continuous":false
-	   }
-	},
-	"particle_effects":{
-	   "type":"origins:action_over_time",
-	   "entity_action":{
-		  "type":"origins:and",
-		  "actions":[
-			 {
-				"type":"origins:execute_command",
-				"command":"execute at @s run particle minecraft:dust 0.2 0.055 0.267 1.5 ^-.2 ^1.4 ^.2 0 0 0 0.01 1 normal",
-				"permission_level":4
-			 },
-			 {
-				"type":"origins:execute_command",
-				"command":"execute at @s run particle minecraft:soul_fire_flame ^-.2 ^1.4 ^.2 0 0 0 0.01 1 normal",
-				"permission_level":4
-			 }
-		  ]
-	   },
-	   "interval":6,
-	   "condition":{
-		  "type":"origins:and",
-		  "conditions":[
-			 {
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-				   "type":"origins:ingredient",
-				   "ingredient":{
-					  "item":"minecraft:air"
-				   }
-				}
-			 },
-			 {
-				"type":"origins:power_active",
-				"power":"witheren:withered_soul_energy_toggle"
-			 }
-		  ]
-	   }
-	},
-	"mining_hands":{
-	   "type":"origins:modify_harvest",
-	   "allow":true,
-	   "block_condition":{
-		  "type":"origins:in_tag",
-		  "tag":"witheren:mineable"
-	   }
-	}
+   "name":"Withered Soul Energy",
+   "description":"Wither Energy flows through you. Your Wither side giving the power to control the souls of those you've killed, allowing you to create powerful attacks. [Secondary]",
+   "type":"origins:multiple",
+   "toggle":{
+      "type":"origins:toggle",
+      "active_by_default":false,
+      "key":{
+         "key":"key.origins.secondary_active",
+         "continuous":false
+      }
+   },
+   "particle_effects":{
+      "type":"origins:action_over_time",
+      "entity_action":{
+         "type":"origins:and",
+         "actions":[
+            {
+               "type":"origins:execute_command",
+               "command":"execute at @s run particle minecraft:dust 0.2 0.055 0.267 1.5 ^-.2 ^1.4 ^.2 0 0 0 0.01 1 normal",
+               "permission_level":4
+            },
+            {
+               "type":"origins:execute_command",
+               "command":"execute at @s run particle minecraft:soul_fire_flame ^-.2 ^1.4 ^.2 0 0 0 0.01 1 normal",
+               "permission_level":4
+            }
+         ]
+      },
+      "interval":6,
+      "condition":{
+         "type":"origins:and",
+         "conditions":[
+            {
+               "type":"origins:equipped_item",
+               "equipment_slot":"mainhand",
+               "item_condition":{
+                  "type":"origins:ingredient",
+                  "ingredient":{
+                     "item":"minecraft:air"
+                  }
+               }
+            },
+            {
+               "type":"origins:power_active",
+               "power":"witheren:withered_soul_energy_toggle"
+            }
+         ]
+      }
+   },
+   "mining_hands":{
+      "type":"origins:modify_harvest",
+      "allow":true,
+      "block_condition":{
+         "type":"origins:in_tag",
+         "tag":"witheren:mineable"
+      }
+   }
 }
