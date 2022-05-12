@@ -1,20 +1,20 @@
 {
-	"name":"Hatred of Life",
-	"description":"You can't eat regular food, recover hunger and saturation by killing.",
-	"type":"origins:multiple",
-	"heal_on_kill":{
-	   "type":"origins:self_action_on_kill",
-	   "entity_action":{
-		  "type":"origins:feed",
-		  "food":6,
-		  "saturation":1
-	   },
-	   "cooldown":1
-	},
-	"no_eat":{
-	   "type":"origins:prevent_item_use",
-	   "item_condition":{
-		  "type":"origins:food"
-	   }
-	}
+   "name":"Hatred of Life",
+   "description":"You can't eat regular food, recover hunger and saturation by killing.",
+   "type":"origins:multiple",
+   "heal_on_kill":{
+      "type":"origins:self_action_on_kill",
+      "entity_action":{
+         "type":"origins:feed",
+         "food":6,
+         "saturation":1
+      },
+      "cooldown":1
+   },
+   "no_eat":{
+      "type":"origins:prevent_item_use",
+      "item_condition":{
+         "type":"origins:food"
+      }
+   }
 }
